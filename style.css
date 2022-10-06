@@ -64,6 +64,7 @@ button{
     background-color: #000;
     color: white;
     display: grid;
+    font-size: 23px;
     place-items: center;
     margin: 10px auto;
 }
