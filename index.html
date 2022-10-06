@@ -5,25 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <title>cube game </title> -->
     <link rel="stylesheet" href="style.css">
-    <script src="/app.js"></script>
 </head>
 <body>
+    <header>created by anand</header>
+    <!-- <h4 class="winner" id="winner"></h4> -->
     <div class="container">
-        <div class="cubes">
-            <div class="cube1" id="cube1">
-        <audio src="/Rolling Dice - Sound Effect (HD) [TubeRipper.com].m4a" id="audio"></audio>
-        <span id="number1"></span>
-       </div>
-       <div class="cube2" id="cube2">
-        <audio src="/Rolling Dice - Sound Effect (HD) [TubeRipper.com].m4a" id="audio"></audio>
-        <span id="number2"></span>
-       </div>
+        <div class="player1" id="player1">
+            <h2>player 1 dice is</h2>
+        <span class="notice1" id="notice1"> <span class="color">RED</span></span>
+            <div class="cubes">
+                <div class="cube1" id="cube1">
+                    <audio src="/Rolling Dice - Sound Effect (HD) [TubeRipper.com].m4a" id="audio"></audio>
+                    <span id="number1"></span>
+                </div>
+            </div>
         </div>
-        <span class="notice" id="notice">your dice is <span class="color">RED</span></span>
-       <button onclick="spin()">spin</button>
-
-
-       <span>created by anand</span>
+        <button onclick="spin()">spin</button>
+        
+        <div class="player2" id="player2">
+          
+            <div class="cube2" id="cube2">
+                <audio src="/Rolling Dice - Sound Effect (HD) [TubeRipper.com].m4a" id="audio"></audio>
+                <span id="number2"></span>
+            </div>   
+        <span class="notice2" id="notice2"><span class="color2">BLUE</span></span>
+        <h2>player 2 dice is</h2>
+        </div>
     </div>
+    <!-- <h4 class="winner" id="winner">   </h4> -->
+    <script src="/app.js"></script>
 </body>
 </html>

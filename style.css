@@ -3,9 +3,10 @@
 }
 .container{
     width: 300px;
-    margin: 100px auto;
+    margin: 50px auto;
     display: grid;
     place-items: center;
+    /* position: absolute; */
 }
 .cubes{
     display: flex;
@@ -68,10 +69,63 @@ button{
     place-items: center;
     margin: 10px auto;
 }
-.notice {
+.notice1{
     font-size: 30px;
 }
-.notice .color{
+.notice2{
+    font-size: 30px;
+}
+.notice1 .color{
     font-size: 30px;
     color: red;
 }
+.notice2 .color2{
+    color:blue;
+}
+header{
+    text-align: center;
+}
+.winner{
+    width: 200px;
+    background-color: gray;
+    color:black;
+    text-align: center;
+}
+.player1{
+    /* background-color: rgba(245, 103, 103, 0.384); */
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    padding:20px;
+}
+.winnerplayer1{
+    background-color: rgba(245, 103, 103, 0.384);
+}
+.player2{
+    /* background-color: rgba(144, 144, 241, 0.557); */
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+.winnerplayer2{
+    background-color: rgba(144, 144, 241, 0.557);
+}
+
+h2{
+    font-size: 30px;
+}
+
+
+
+
+/* 
+.winner{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    background-color: red;
+    height: 50px;
+
+} */
