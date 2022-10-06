@@ -19,7 +19,7 @@
     border-radius: 10px;
     margin: 10px;
     color: white;
-    background-color:rgb(234, 94, 94);
+    background-color:red;
     display:grid;
     font-size: 50px;
     place-items: center; 
@@ -30,7 +30,7 @@
     margin: 3rem auto;
     border-radius: 10px;
     color: white;
-    background-color:rgb(92, 97, 255);
+    background-color:blue;
     display:grid;
     font-size: 50px;
     margin: 10px;
@@ -60,7 +60,6 @@
 button{
     width: 100px;
     height: 50px;
-    /* margin: 0 auto; */
     border-radius: 10px;
     background-color: #000;
     color: white;
@@ -69,14 +68,9 @@ button{
     margin: 10px auto;
 }
 .notice {
-    
     font-size: 30px;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
-.notice:last-child{
-
-    /* text-align: center; */
-    /* margin: 0 0; */
+.notice .color{
     font-size: 30px;
     color: red;
 }
