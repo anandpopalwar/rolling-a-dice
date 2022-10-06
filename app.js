@@ -30,8 +30,6 @@ function spin(){
     console.log('player 1 dice number is ',random1+1)
     console.log('player 2 dice number is ',random2+1)
      
-
-
     
 }
     
